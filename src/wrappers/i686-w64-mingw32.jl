@@ -25,14 +25,18 @@ const libssh2 = "libssh2.dll"
 Open all libraries
 """
 function __init__()
-    global prefix = abspath(joinpath(@__DIR__, ".."))
+    global artifact_dir = abspath(artifact"LibSSH2")
 
     # Initialize PATH and LIBPATH environment variable listings
     global PATH_list, LIBPATH_list
-    append!.(Ref(PATH_list), (MbedTLS_jll.PATH_list,))
-    append!.(Ref(LIBPATH_list), (MbedTLS_jll.LIBPATH_list,))
+    # We first need to add to LIBPATH_list the libraries provided by Julia
+    append!(LIBPATH_list, [Sys.BINDIR, joinpath(Sys.BINDIR, Base.LIBDIR, "julia"), joinpath(Sys.BINDIR, Base.LIBDIR)])
+    # From the list of our dependencies, generate a tuple of all the PATH and LIBPATH lists,
+    # then append them to our own.
+    foreach(p -> append!(PATH_list, p), (MbedTLS_jll.PATH_list,))
+    foreach(p -> append!(LIBPATH_list, p), (MbedTLS_jll.LIBPATH_list,))
 
-    global libssh2_path = abspath(joinpath(artifact"LibSSH2", libssh2_splitpath...))
+    global libssh2_path = normpath(joinpath(artifact_dir, libssh2_splitpath...))
 
     # Manually `dlopen()` this right now so that future invocations
     # of `ccall` with its `SONAME` will find this path immediately.
