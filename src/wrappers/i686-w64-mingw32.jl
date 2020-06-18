@@ -6,6 +6,7 @@ using MbedTLS_jll
 PATH = ""
 LIBPATH = ""
 LIBPATH_env = "PATH"
+LIBPATH_default = ""
 
 # Relative path to `libssh2`
 const libssh2_splitpath = ["bin", "libssh2.dll"]
@@ -29,13 +30,13 @@ function __init__()
 
     # Initialize PATH and LIBPATH environment variable listings
     global PATH_list, LIBPATH_list
-    # We first need to add to LIBPATH_list the libraries provided by Julia
-    append!(LIBPATH_list, [Sys.BINDIR, joinpath(Sys.BINDIR, Base.LIBDIR, "julia"), joinpath(Sys.BINDIR, Base.LIBDIR)])
     # From the list of our dependencies, generate a tuple of all the PATH and LIBPATH lists,
     # then append them to our own.
     foreach(p -> append!(PATH_list, p), (MbedTLS_jll.PATH_list,))
     foreach(p -> append!(LIBPATH_list, p), (MbedTLS_jll.LIBPATH_list,))
 
+    # Lastly, we need to add to LIBPATH_list the libraries provided by Julia
+    append!(LIBPATH_list, [Sys.BINDIR, joinpath(Sys.BINDIR, Base.LIBDIR, "julia"), joinpath(Sys.BINDIR, Base.LIBDIR)])
     global libssh2_path = normpath(joinpath(artifact_dir, libssh2_splitpath...))
 
     # Manually `dlopen()` this right now so that future invocations
