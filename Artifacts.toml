@@ -5,7 +5,7 @@ os = "macos"
 
     [[LibSSH2.download]]
     sha256 = "30a235677434347566acd0b9470e1d4ec6397be97f988b606c659bce5278d582"
-    url = "https://github.com/JuliaBinaryWrappers/LibSSH2_jll.jl/releases/download/LibSSH2-v1.11.1+0/LibSSH2.v1.11.1.aarch64-apple-darwin.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/LibSSH2_jll.jl/releases/download/LibSSH2-v1.11.2+0/LibSSH2.v1.11.2.aarch64-apple-darwin.tar.gz"
 [[LibSSH2]]
 arch = "aarch64"
 git-tree-sha1 = "d41cd1135072244a69ad738337aff39bb8ba5394"
@@ -14,7 +14,7 @@ os = "linux"
 
     [[LibSSH2.download]]
     sha256 = "f24b75f151dc134e85db801fc1abb79b1c73398b7b88b2e373717f9a06370f53"
-    url = "https://github.com/JuliaBinaryWrappers/LibSSH2_jll.jl/releases/download/LibSSH2-v1.11.1+0/LibSSH2.v1.11.1.aarch64-linux-gnu.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/LibSSH2_jll.jl/releases/download/LibSSH2-v1.11.2+0/LibSSH2.v1.11.2.aarch64-linux-gnu.tar.gz"
 [[LibSSH2]]
 arch = "aarch64"
 git-tree-sha1 = "46db959ca9d9822dd541feca4037e569cdb13eb5"
@@ -23,7 +23,15 @@ os = "linux"
 
     [[LibSSH2.download]]
     sha256 = "84a6e794effd4a7ba1b88ffb38d88fe915773a19f3bcb3d5066153fd4dea9084"
-    url = "https://github.com/JuliaBinaryWrappers/LibSSH2_jll.jl/releases/download/LibSSH2-v1.11.1+0/LibSSH2.v1.11.1.aarch64-linux-musl.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/LibSSH2_jll.jl/releases/download/LibSSH2-v1.11.2+0/LibSSH2.v1.11.2.aarch64-linux-musl.tar.gz"
+[[LibSSH2]]
+arch = "aarch64"
+git-tree-sha1 = "23bb25db96ba88fb13aaf2294db68634f6ca40c4"
+os = "freebsd"
+
+    [[LibSSH2.download]]
+    sha256 = "ed8d371bcf0c3c27bd2fe6867823e2c8efc014aa77607edb42d758d4d7042db4"
+    url = "https://github.com/JuliaBinaryWrappers/LibSSH2_jll.jl/releases/download/LibSSH2-v1.11.2+0/LibSSH2.v1.11.2.aarch64-unknown-freebsd.tar.gz"
 [[LibSSH2]]
 arch = "armv6l"
 call_abi = "eabihf"
@@ -33,7 +41,7 @@ os = "linux"
 
     [[LibSSH2.download]]
     sha256 = "f44b723d69d8e8f89e6552ce4d71a65fefdb4fb134a7a23f01b0ffd0cb5f88ec"
-    url = "https://github.com/JuliaBinaryWrappers/LibSSH2_jll.jl/releases/download/LibSSH2-v1.11.1+0/LibSSH2.v1.11.1.armv6l-linux-gnueabihf.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/LibSSH2_jll.jl/releases/download/LibSSH2-v1.11.2+0/LibSSH2.v1.11.2.armv6l-linux-gnueabihf.tar.gz"
 [[LibSSH2]]
 arch = "armv6l"
 call_abi = "eabihf"
@@ -43,7 +51,7 @@ os = "linux"
 
     [[LibSSH2.download]]
     sha256 = "cb88566137d5b990231a2d535636b7564131deeaf32a1848d3d9aae6b84d1588"
-    url = "https://github.com/JuliaBinaryWrappers/LibSSH2_jll.jl/releases/download/LibSSH2-v1.11.1+0/LibSSH2.v1.11.1.armv6l-linux-musleabihf.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/LibSSH2_jll.jl/releases/download/LibSSH2-v1.11.2+0/LibSSH2.v1.11.2.armv6l-linux-musleabihf.tar.gz"
 [[LibSSH2]]
 arch = "armv7l"
 call_abi = "eabihf"
@@ -53,7 +61,7 @@ os = "linux"
 
     [[LibSSH2.download]]
     sha256 = "252fa78bb856c10b50d738ef147ed66ff6afed798a7792c3e5fb6b154789d89b"
-    url = "https://github.com/JuliaBinaryWrappers/LibSSH2_jll.jl/releases/download/LibSSH2-v1.11.1+0/LibSSH2.v1.11.1.armv7l-linux-gnueabihf.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/LibSSH2_jll.jl/releases/download/LibSSH2-v1.11.2+0/LibSSH2.v1.11.2.armv7l-linux-gnueabihf.tar.gz"
 [[LibSSH2]]
 arch = "armv7l"
 call_abi = "eabihf"
@@ -63,7 +71,7 @@ os = "linux"
 
     [[LibSSH2.download]]
     sha256 = "085115ff2f6dd98282779c9d6904c0bcacd51ec21c1bdf684d28b7522c0333b4"
-    url = "https://github.com/JuliaBinaryWrappers/LibSSH2_jll.jl/releases/download/LibSSH2-v1.11.1+0/LibSSH2.v1.11.1.armv7l-linux-musleabihf.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/LibSSH2_jll.jl/releases/download/LibSSH2-v1.11.2+0/LibSSH2.v1.11.2.armv7l-linux-musleabihf.tar.gz"
 [[LibSSH2]]
 arch = "i686"
 git-tree-sha1 = "42e10214d775cf9eb0df467f79c3dc8947f358f9"
@@ -72,7 +80,7 @@ os = "linux"
 
     [[LibSSH2.download]]
     sha256 = "45adf92bee53cea70e86d4d5d92bfaf4d82eaa2082f3c304a9348d68da9445c5"
-    url = "https://github.com/JuliaBinaryWrappers/LibSSH2_jll.jl/releases/download/LibSSH2-v1.11.1+0/LibSSH2.v1.11.1.i686-linux-gnu.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/LibSSH2_jll.jl/releases/download/LibSSH2-v1.11.2+0/LibSSH2.v1.11.2.i686-linux-gnu.tar.gz"
 [[LibSSH2]]
 arch = "i686"
 git-tree-sha1 = "ff3b3148b3d9089319a2b233f1e3e777c19c5706"
@@ -81,7 +89,7 @@ os = "linux"
 
     [[LibSSH2.download]]
     sha256 = "28218a31627c4cc37952aa0dedca4113273f666465e89c446a9834fcad794dec"
-    url = "https://github.com/JuliaBinaryWrappers/LibSSH2_jll.jl/releases/download/LibSSH2-v1.11.1+0/LibSSH2.v1.11.1.i686-linux-musl.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/LibSSH2_jll.jl/releases/download/LibSSH2-v1.11.2+0/LibSSH2.v1.11.2.i686-linux-musl.tar.gz"
 [[LibSSH2]]
 arch = "i686"
 git-tree-sha1 = "e2611144c8c4cc319fc7bdd275131b659a7a30fa"
@@ -89,7 +97,7 @@ os = "windows"
 
     [[LibSSH2.download]]
     sha256 = "52fe376598a1cfc94f71f243ec6599f7c7ab3ae88d89fead7278e6a77d61979c"
-    url = "https://github.com/JuliaBinaryWrappers/LibSSH2_jll.jl/releases/download/LibSSH2-v1.11.1+0/LibSSH2.v1.11.1.i686-w64-mingw32.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/LibSSH2_jll.jl/releases/download/LibSSH2-v1.11.2+0/LibSSH2.v1.11.2.i686-w64-mingw32.tar.gz"
 [[LibSSH2]]
 arch = "powerpc64le"
 git-tree-sha1 = "1690cc5d2b33c89cfc30ede94fd9a5731084ed44"
@@ -98,7 +106,7 @@ os = "linux"
 
     [[LibSSH2.download]]
     sha256 = "b968ec14e8812edd590a429d0ae974ea85c21eecdf1317d31fcf7f0502103439"
-    url = "https://github.com/JuliaBinaryWrappers/LibSSH2_jll.jl/releases/download/LibSSH2-v1.11.1+0/LibSSH2.v1.11.1.powerpc64le-linux-gnu.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/LibSSH2_jll.jl/releases/download/LibSSH2-v1.11.2+0/LibSSH2.v1.11.2.powerpc64le-linux-gnu.tar.gz"
 [[LibSSH2]]
 arch = "x86_64"
 git-tree-sha1 = "a2b328ec4ca67dff1ff0efa493c6f39332d88bac"
@@ -106,7 +114,7 @@ os = "macos"
 
     [[LibSSH2.download]]
     sha256 = "f515dfe532943769d128bd85d03e76f2fa10ce9ade6fb04aead6967d66eaa516"
-    url = "https://github.com/JuliaBinaryWrappers/LibSSH2_jll.jl/releases/download/LibSSH2-v1.11.1+0/LibSSH2.v1.11.1.x86_64-apple-darwin.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/LibSSH2_jll.jl/releases/download/LibSSH2-v1.11.2+0/LibSSH2.v1.11.2.x86_64-apple-darwin.tar.gz"
 [[LibSSH2]]
 arch = "x86_64"
 git-tree-sha1 = "972ba274075fdfeb573238ef382970ce68cc808a"
@@ -115,7 +123,7 @@ os = "linux"
 
     [[LibSSH2.download]]
     sha256 = "ce95fb77ea099e0ff2511f3ee18e926bede1d29ffe768115a23683acc0b6f99e"
-    url = "https://github.com/JuliaBinaryWrappers/LibSSH2_jll.jl/releases/download/LibSSH2-v1.11.1+0/LibSSH2.v1.11.1.x86_64-linux-gnu.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/LibSSH2_jll.jl/releases/download/LibSSH2-v1.11.2+0/LibSSH2.v1.11.2.x86_64-linux-gnu.tar.gz"
 [[LibSSH2]]
 arch = "x86_64"
 git-tree-sha1 = "00c898087bd92472a7530d4d7865d34ce50fad63"
@@ -125,7 +133,7 @@ sanitize = "memory"
 
     [[LibSSH2.download]]
     sha256 = "8d35b34e77eced72a9e2b7bb65955eece287666c2a804bc0b1b9d826c31ca06d"
-    url = "https://github.com/JuliaBinaryWrappers/LibSSH2_jll.jl/releases/download/LibSSH2-v1.11.1+0/LibSSH2.v1.11.1.x86_64-linux-gnu-sanitize+memory.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/LibSSH2_jll.jl/releases/download/LibSSH2-v1.11.2+0/LibSSH2.v1.11.2.x86_64-linux-gnu-sanitize+memory.tar.gz"
 [[LibSSH2]]
 arch = "x86_64"
 git-tree-sha1 = "608dcc6e189647cc1a8b260854fa4706999fa714"
@@ -134,7 +142,7 @@ os = "linux"
 
     [[LibSSH2.download]]
     sha256 = "90472ee892a6b7203f5ef1e28d37168a53a5a0df25b997c2aabdacc50ac5cf7c"
-    url = "https://github.com/JuliaBinaryWrappers/LibSSH2_jll.jl/releases/download/LibSSH2-v1.11.1+0/LibSSH2.v1.11.1.x86_64-linux-musl.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/LibSSH2_jll.jl/releases/download/LibSSH2-v1.11.2+0/LibSSH2.v1.11.2.x86_64-linux-musl.tar.gz"
 [[LibSSH2]]
 arch = "x86_64"
 git-tree-sha1 = "69f76d4bc208443a5f8dcb28cd509edb8612e649"
@@ -142,7 +150,7 @@ os = "freebsd"
 
     [[LibSSH2.download]]
     sha256 = "099b39e811723180f4d643bd644fdcbda43b32b80db48c3face271fdba72e443"
-    url = "https://github.com/JuliaBinaryWrappers/LibSSH2_jll.jl/releases/download/LibSSH2-v1.11.1+0/LibSSH2.v1.11.1.x86_64-unknown-freebsd.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/LibSSH2_jll.jl/releases/download/LibSSH2-v1.11.2+0/LibSSH2.v1.11.2.x86_64-unknown-freebsd.tar.gz"
 [[LibSSH2]]
 arch = "x86_64"
 git-tree-sha1 = "40736fbe27ade0c837ab4d92e546234bf94598c7"
@@ -150,4 +158,4 @@ os = "windows"
 
     [[LibSSH2.download]]
     sha256 = "168109345ad23a58b5ea6d8c553dd217b28ff699bc8bad033c299a9717b200cb"
-    url = "https://github.com/JuliaBinaryWrappers/LibSSH2_jll.jl/releases/download/LibSSH2-v1.11.1+0/LibSSH2.v1.11.1.x86_64-w64-mingw32.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/LibSSH2_jll.jl/releases/download/LibSSH2-v1.11.2+0/LibSSH2.v1.11.2.x86_64-w64-mingw32.tar.gz"
